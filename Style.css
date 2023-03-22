@@ -1,0 +1,28 @@
+header {
+    background-color: #008080;
+    margin: 5px;
+    border: black solid 10px;
+}
+
+main {
+background-color:rgba(0, 128, 128, 0.371);
+}
+
+#bio{
+    font-weight: bold;
+}
+.boxes {
+background-color: #FFE135;
+width: 25%;
+border: black solid 10px;
+margin: 5px;
+}
+
+img {
+    width: 25%;
+}
+footer {
+    background-color: #008080;
+    margin: 5px;
+    border: black solid 10px;
+}
