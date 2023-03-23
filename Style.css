@@ -16,6 +16,8 @@ background-color: #FFE135;
 width: 25%;
 border: black solid 10px;
 margin: 5px;
+display: inline-block;
+text-align: center;
 }
 
 img {
