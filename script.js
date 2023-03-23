@@ -1,3 +1,5 @@
+function greetuser(){
+
 let dogs = prompt("Do you like Dogs? Yes or No? (Case Sensitive)");
 
 if (dogs == 'Yes'){
@@ -8,7 +10,28 @@ if (dogs == 'Yes'){
     document.write("Tuxedos Page");
   }
 
-  let usersName = prompt ("What is your name?");
-  document.write(" " + usersName + " is my favorite name!");
-
   
+let usersName = prompt ("What is your name?");
+if (usersName ==""){
+  usersName = prompt ("Try again please!")
+}
+
+document.write(" " + usersName + " is my favorite name!");
+
+console.log(usersName);
+}
+
+greetuser();
+
+
+
+  // function addTwoNumbers(number1, number2){
+  //   console. log(number1,number2);
+  //   return number1 + number2;
+  // }
+
+  // let sum = addTwoNumbers (1, 4);
+  // addTwoNumbers(19, 16);
+  // addTwoNumbers("hello","world");
+  // addTwoNumbers("19", 19);
+  // addTwoNumbers(19, "hello");
