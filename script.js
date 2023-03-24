@@ -23,6 +23,21 @@ console.log(usersName);
 
 greetuser();
 
+let TuxAge = prompt("Guess Tuxs Age");
+
+while (TuxAge != 1){
+  TuxAge = prompt (" Wrong! guess again! Guess Tuxs Age");
+}
+
+let TuxPics = prompt("How many Tuxes do you want to see? 10 is too many...");
+
+while (TuxPics >= 10){
+  TuxPics = prompt ("I can't handle that many Tuxedos! Try again!");
+}
+
+for (let i = 0; i < TuxPics; i++){
+ document.write ("<img src=\"Tux-makes-mess.jpg\" class=\"Imgs\" alt=\"Baby Tux made a mess\"/>")
+}
 
 
   // function addTwoNumbers(number1, number2){
