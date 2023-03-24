@@ -32,7 +32,7 @@ while (TuxAge != 1){
 
 let TuxPics = prompt("How many Tuxes do you want to see? 10 is too many...");
 
-while (TuxPics >= 10){
+while (TuxPics >= 10 || TuxPics <= 0){
   TuxPics = prompt ("I can't handle that many Tuxedos! Try again!");
 }
 
