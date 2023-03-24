@@ -1,7 +1,6 @@
 function greetuser(){
 
 let dogs = prompt("Do you like Dogs? Yes or No? (Case Sensitive)");
-}
 
 if (dogs == 'Yes'){
     document.write("This is the page for you!!!");
